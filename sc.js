@@ -73,7 +73,7 @@ const formHandler =(event)=>{
             }
             
             
-        )).setPopupContent(title+time)
+        )).setPopupContent("   "+title+" &   "+time +"min")
         .openPopup();
         console.log(currentLocation)
     })
